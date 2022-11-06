@@ -20,6 +20,8 @@ include("${BLEND2D_DIR}/CMakeLists.txt")
 include_directories(${CMAKE_SOURCE_DIR})
 set(SOURCES 
 main.cpp
+dash.cpp
+dash.h
 )
   add_executable(${PROJECT_NAME} ${SOURCES})
   set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_VISIBILITY_PRESET hidden)
